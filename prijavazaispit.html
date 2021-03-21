@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava za ispit</title>
+    <link rel="stylesheet" href="prijava.css">
+</head>
+
+<body>
+    <main>
+        <h1>Prijava za ispit</h1>
+        <form action="">
+
+            <label for="name">Ime i prezime:</label>
+            <input type="text" name="name">
+            <!--***************************************-->
+            <label for="fakultet">Fakultet:</label>
+            <input type="text" name="fakultet">
+            <!--***************************************-->
+            <label for="smjer">Smjer:</label>
+            <input type="text" name="smjer">
+            <!--***************************************-->
+            <label for="rokovi">Rok:</label>
+            <select name="rokovi" id="rokovi" form="rokovi">
+            <option value="februarski">februarski</option>
+            <option value="aprilski">aprilski</option>
+            <option value="julski">julski</option>
+            <option value="februarski">februarski</option>
+          </select>
+            <!--***************************************-->
+            <label for="predmeti">Predmeti:</label>
+            <select name="predmeti" id="predmeti" form="predmeti">
+            <option value="MatematikaI">Matematika I</option>
+            <option value="FizikaI">Fizika I</option>
+            <option value="OsnoveElektrotehnike">Osnove elektrotehnike I</option>
+            <option value="OsnoveRacunarstva">Osnovi racunarstva</option>
+          </select>
+            <!--Email field-->
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="">
+            <input type="submit" value="Sacuvaj">
+        </form>
+    </main>
+</body>
+
+</html>
